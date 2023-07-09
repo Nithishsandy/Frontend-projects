@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body style="background-color: aquamarine;">
+  <script src="calculator.js"></script>
+
+  <h1>Simple calculator</h1>
+    <div class="main">
+      <div id="dis" name="answer"></div>
+      <br>
+      <form id="myform">
+      <button type="button" class="numbers" value="9" onclick=display(this.value)>9</button>
+      <button type="button" class="numbers" value="8" onclick=display(this.value)>8</button>
+      <button type="button" class="numbers" value="7" onclick=display(this.value)>7</button>
+      <button type="button" class="numbers" value="/" onclick=display(this.value)>/</button>
+      <br>
+      <button type="button" class="numbers" value="6" onclick=display(this.value)>6</button>
+      <button type="button" class="numbers" value="5" onclick=display(this.value)>5</button>
+      <button type="button" class="numbers" value="4" onclick=display(this.value)>4</button>
+      <button type="button" class="numbers" value="+" onclick=display(this.value)>+</button>
+      <br>
+      <button type="button" class="numbers" value="3" onclick=display(this.value)>3</button>
+      <button type="button" class="numbers" value="2" onclick=display(this.value)>2</button>
+      <button type="button" class="numbers" value="1" onclick=display(this.value)>1</button>
+      <button type="button" class="numbers" value="-" onclick=display(this.value)>-</button>
+      <br>
+      <button type="button" class="numbers" value="." onclick=display(this.value)>.</button>
+      <button type="button" class="numbers" value="0" onclick=display(this.value)>0</button>
+      <button type="button" class="numbers" value="*" onclick=display(this.value)>*</button>
+      <button type="button" class="numbers" value="=" onclick=show()>=</button>
+      <br>
+      <button type="button" class="reset" onclick=RESET()>Clear</button>
+     </form> 
+    </div>
+
+
+
+
+
+</body>
+</html>
